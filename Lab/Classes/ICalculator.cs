@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lab.Classes
 {
-    interface ICalculator
+    public interface ICalculator
     {
-        double Calculate(double SplitNumbers, double UpLim, double LowLim, Func<double, double> integral, out double time);
+        public double Calculate(double SplitNumbers, double UpLim, double LowLim, Func<double, double> integral, out double time);
     }
 }

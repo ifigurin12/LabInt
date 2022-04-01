@@ -59,8 +59,8 @@ namespace Lab
         {
             return methods.SelectedIndex switch
             {
-                1 => new SimsonMethod(),
-                0 => new TrapezoidalMethod(),
+                0 => new SimsonMethod(),
+                1 => new TrapezoidalMethod(),
                 _ => throw new NotImplementedException(),
             };
         }
@@ -79,5 +79,5 @@ namespace Lab
             double result = calcult.Calculate(splits, upLim, lowLim, x => (2 * x) - Math.Log(11 * x) - 1, out time);
             Result.Text = result.ToString(); 
         }
-    }
+    } 
 }

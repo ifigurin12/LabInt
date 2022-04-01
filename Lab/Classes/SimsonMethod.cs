@@ -8,7 +8,7 @@ using System.Diagnostics;
 
 namespace Lab.Classes
 {  // 2x - ln(11x) - 1 
-    class SimsonMethod : ICalculator
+    public class SimsonMethod : ICalculator
     {
         double ICalculator.Calculate(double SplitNumbers, double UpLim, double LowLim, Func<double, double> integral, out double time)
         {
