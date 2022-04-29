@@ -26,6 +26,7 @@ Title="Figurin I.A. 3-46" Height="450" Width="800">
             <RowDefinition Height="0.15*"/>
             <RowDefinition Height="0.15*"/>
             <RowDefinition Height="0.15*"/>
+            <RowDefinition Height="0.15*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="0.05*"/>
         </Grid.RowDefinitions>
@@ -36,7 +37,7 @@ Title="Figurin I.A. 3-46" Height="450" Width="800">
         <TextBox x:Name="SplitNumber" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="90"/>
         <TextBox x:Name="TopLimit" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="90"/>
         <TextBox x:Name="BottomLimit" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="90" />
-        <oxy:PlotView x:Name="Graph" Grid.Column="3" Grid.Row="1" Grid.RowSpan="9" Grid.ColumnSpan="2"/>
+        <oxy:PlotView x:Name="Graph" Grid.Column="3" Grid.Row="1" Grid.RowSpan="10" Grid.ColumnSpan="2"/>
         <TextBlock Grid.Column="1" Grid.Row="4" Text="Выберите метод" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         <ComboBox  Name ="methods" Grid.Column="2" Grid.Row="4" Margin="4,4,4,4" >
             <ComboBoxItem IsSelected="True">
@@ -48,8 +49,11 @@ Title="Figurin I.A. 3-46" Height="450" Width="800">
         </ComboBox>
         <Button x:Name="Default" Content="Default Values" Grid.Column="1" Grid.Row="5" Margin="4,4,4,4" Click="DefaultValues"/>
         <Button x:Name="Graphic" Content="Build a graphic" Grid.Column="2" Grid.Row="5" Margin="4,4,4,4" Click="BuildGraphic"/>
-        <Button x:Name="Calculate" Content="Calculate" Grid.Column="1" Grid.Row="6" Grid.ColumnSpan ="2" Margin="4,4,4,4" Click="StartCalculate" Background="MediumVioletRed" />
-        <TextBlock Grid.Column="1" Grid.Row="7" Text="Результат:" HorizontalAlignment="Center" Grid.ColumnSpan ="2" VerticalAlignment="Center"/>
-        <TextBox x:Name="Result" Grid.Column="1" Grid.Row="8" HorizontalAlignment="Center" Grid.ColumnSpan ="2" VerticalAlignment="Center" Width="180" />
+        <CheckBox x:Name="switchParallel" Grid.Column="1" Grid.Row="6" VerticalAlignment="Center" Margin="5 0 0 0" Content="Parallel" IsThreeState="False" IsChecked="False"/>
+        <Button x:Name="Calculate" Content="Calculate" Grid.Column="1" Grid.Row="7" Grid.ColumnSpan ="2" Margin="4,4,4,4" Click="StartCalculate" Background="MediumVioletRed" />
+        <TextBlock Grid.Column="1" Grid.Row="8" Text="Результат:" HorizontalAlignment="Center" Grid.ColumnSpan ="2" VerticalAlignment="Center"/>
+        <TextBox x:Name="Result" Grid.Column="1" Grid.Row="9" HorizontalAlignment="Center" Grid.ColumnSpan ="2" VerticalAlignment="Center" Width="180" />
+        <TextBlock Grid.Column="1" Grid.Row="10" Text="Время:" HorizontalAlignment="Left" Grid.ColumnSpan ="2" VerticalAlignment="Top"/>
+        <TextBlock x:Name="timePar" Grid.Column="2" Grid.Row="10" Text="-" HorizontalAlignment="Left" Grid.ColumnSpan ="2" VerticalAlignment="Top"/>
     </Grid>
 </Window>

@@ -29,7 +29,7 @@ namespace LabTest
             double time;
             double actual = Math.Round(integral.Calculate(1000, 1000, 1, x => (2 * x) - Math.Log(11 * x) - 1, out time), 3);
             // assert 
-            Assert.Equal(expected, actual);
+            Assert.Equal(expected, actual); 
         }
         [Fact]
         public void EqTrapezoidalNSimpson()

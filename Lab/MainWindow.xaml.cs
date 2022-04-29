@@ -45,10 +45,17 @@ namespace Lab
             int lowLim = Convert.ToInt32(BottomLimit.Text);
             ICalculator calcultGraph = new SimsonMethod();
 
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < Convert.ToInt32(SplitNumber.Text); i++)
             {
-                double time = 0;
-                double result = calcultGraph.Calculate(i, upLim, lowLim, x => (2 * x) - Math.Log(11 * x) - 1, out time);
+                double time = 0, result;
+                if (switchParallel.IsChecked == true)
+                {
+                    result = calcultGraph.CalculateParallel(i, upLim, lowLim, x => (2 * x) - Math.Log(11 * x) - 1, out time);
+                }
+                else
+                {
+                    result = calcultGraph.Calculate(i, upLim, lowLim, x => (2 * x) - Math.Log(11 * x) - 1, out time);
+                }
                 lineSeries.Points.Add(new DataPoint(i, time));
             }
 
@@ -73,10 +80,17 @@ namespace Lab
             int splits = Convert.ToInt32(SplitNumber.Text); 
             int upLim = Convert.ToInt32(TopLimit.Text);
             int lowLim = Convert.ToInt32(BottomLimit.Text);
-            double time = 0;
-
+            double time = 0, result;
             ICalculator calcult = GetMethod();
-            double result = calcult.Calculate(splits, upLim, lowLim, x => (2 * x) - Math.Log(11 * x) - 1, out time);
+            if (switchParallel.IsChecked == true)
+            {
+                 result = calcult.CalculateParallel(splits, upLim, lowLim, x => (2 * x) - Math.Log(11 * x) - 1, out time);
+            }
+            else
+            {
+                result = calcult.Calculate(splits, upLim, lowLim, x => (2 * x) - Math.Log(11 * x) - 1, out time);
+            }
+            timePar.Text = Convert.ToString(time);
             Result.Text = result.ToString(); 
         }
     } 
