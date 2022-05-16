@@ -10,6 +10,10 @@ namespace Lab.Classes
     {
         double ICalculator.Calculate(int SplitNumbers, double UpLim, double LowLim, Func<double, double> integral, out double time)
         {
+            if (SplitNumbers <= 0)
+            {
+                throw new ArgumentException();
+            }
             Stopwatch tn = new Stopwatch();
             tn.Start();
 
@@ -28,6 +32,10 @@ namespace Lab.Classes
 
         double ICalculator.CalculateParallel(int SplitNumbers, double UpLim, double LowLim, Func<double, double> integral, out double time)
         {
+            if (SplitNumbers <= 0)
+            {
+                throw new ArgumentException();
+            }
             Stopwatch tn = new Stopwatch();
             tn.Start();
 
