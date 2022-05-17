@@ -16,10 +16,11 @@ namespace Lab.Classes
             {
                 throw new ArgumentException();
             }
-            Stopwatch tn = new Stopwatch();
-            tn.Start();
 
-            
+            Stopwatch tn = new Stopwatch();
+
+
+            tn.Start();
             double h = (UpLim - LowLim) / SplitNumbers;
             double sum = 0.0;
 
