@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "f7pd3iifUOMpZjdNdmAyYOnSC4wbn/1/HviIjcfV1oMM0NtmFd6xMEaFSXkf85m5YT70IXiRJoB33Nc1ONOHSw==",
+  "dgSpecHash": "hmMlX+z2sAevA94guG3zzf1bEzXa5B+4tWjsnJ65A/L8RwcoDSCu02oxBN5JQK2L5fekF1RIHRL6L3yh0e1yIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ifigu\\source\\repos\\Lab\\Lab\\Lab.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Source\\Repos\\LabInt\\Lab\\Lab.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ifigu\\.nuget\\packages\\oxyplot.core\\2.1.0\\oxyplot.core.2.1.0.nupkg.sha512",
-    "C:\\Users\\ifigu\\.nuget\\packages\\oxyplot.wpf\\2.1.0\\oxyplot.wpf.2.1.0.nupkg.sha512",
-    "C:\\Users\\ifigu\\.nuget\\packages\\oxyplot.wpf.shared\\2.1.0\\oxyplot.wpf.shared.2.1.0.nupkg.sha512"
+    "C:\\Users\\PC\\.nuget\\packages\\oxyplot.core\\2.1.0\\oxyplot.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\oxyplot.wpf\\2.1.0\\oxyplot.wpf.2.1.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\oxyplot.wpf.shared\\2.1.0\\oxyplot.wpf.shared.2.1.0.nupkg.sha512"
   ],
   "logs": []
 }

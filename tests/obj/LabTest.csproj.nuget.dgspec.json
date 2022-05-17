@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ifigu\\source\\repos\\Lab\\tests\\LabTest.csproj": {}
+    "C:\\Users\\PC\\Source\\Repos\\LabInt\\tests\\LabTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ifigu\\source\\repos\\Lab\\Lab\\Lab.csproj": {
+    "C:\\Users\\PC\\Source\\Repos\\LabInt\\Lab\\Lab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ifigu\\source\\repos\\Lab\\Lab\\Lab.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\LabInt\\Lab\\Lab.csproj",
         "projectName": "Lab",
-        "projectPath": "C:\\Users\\ifigu\\source\\repos\\Lab\\Lab\\Lab.csproj",
-        "packagesPath": "C:\\Users\\ifigu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ifigu\\source\\repos\\Lab\\Lab\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Source\\Repos\\LabInt\\Lab\\Lab.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Source\\Repos\\LabInt\\Lab\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ifigu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -67,26 +63,22 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ifigu\\source\\repos\\Lab\\tests\\LabTest.csproj": {
+    "C:\\Users\\PC\\Source\\Repos\\LabInt\\tests\\LabTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ifigu\\source\\repos\\Lab\\tests\\LabTest.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\LabInt\\tests\\LabTest.csproj",
         "projectName": "LabTest",
-        "projectPath": "C:\\Users\\ifigu\\source\\repos\\Lab\\tests\\LabTest.csproj",
-        "packagesPath": "C:\\Users\\ifigu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ifigu\\source\\repos\\Lab\\tests\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Source\\Repos\\LabInt\\tests\\LabTest.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Source\\Repos\\LabInt\\tests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ifigu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -99,8 +91,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\ifigu\\source\\repos\\Lab\\Lab\\Lab.csproj": {
-                "projectPath": "C:\\Users\\ifigu\\source\\repos\\Lab\\Lab\\Lab.csproj"
+              "C:\\Users\\PC\\Source\\Repos\\LabInt\\Lab\\Lab.csproj": {
+                "projectPath": "C:\\Users\\PC\\Source\\Repos\\LabInt\\Lab\\Lab.csproj"
               }
             }
           }
@@ -149,12 +141,9 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WPF": {
-              "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
